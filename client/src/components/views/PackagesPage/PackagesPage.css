@@ -1,0 +1,26 @@
+span.blueOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 56.5%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:  linear-gradient( rgba(24, 144, 255, 0.75), rgba(245, 246, 252, 0.20));
+
+}
+
+.searchIcon{
+font-size:50px;
+color:#fff;
+opacity:1;
+
+}
+a.coverLink:hover > .blueOverlay  {
+	opacity:1;
+}
